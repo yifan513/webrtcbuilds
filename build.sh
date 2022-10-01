@@ -77,7 +77,7 @@ REPO_URL="https://webrtc.googlesource.com/src"
 DEPOT_TOOLS_URL="https://chromium.googlesource.com/chromium/tools/depot_tools.git"
 DEPOT_TOOLS_DIR=$DIR/depot_tools
 DEPOT_TOOLS_WIN_TOOLCHAIN=0
-PATH=$DEPOT_TOOLS_DIR:$DEPOT_TOOLS_DIR/python276_bin:$PATH
+PATH=$DEPOT_TOOLS_DIR:$DEPOT_TOOLS_DIR/python2-bin:$PATH
 
 [ "$DEBUG" = 1 ] && set -x
 
